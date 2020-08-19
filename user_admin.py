@@ -18,7 +18,7 @@ def openkey():
         file = open('key.key', 'rb')
         key = file.read()
         return key
-    except ValueError:
+    except (ValueError, FileNotFoundError) as e:
         print('Key file not found, generating')
         createkey()
 
