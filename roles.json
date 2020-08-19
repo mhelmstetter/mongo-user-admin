@@ -1,0 +1,30 @@
+[
+    {
+        "role": "xx_devops",
+        "privileges": [],
+        "roles": [
+          { "role": "root", "db": "admin" }
+        ]
+    },
+    {
+        "role": "xx_dev_admin",
+        "privileges": [],
+        "roles": [
+          { "role": "readWriteAnyDatabase", "db": "admin" }
+        ]
+    },
+    {
+        "role": "xx_dev",
+        "privileges": [],
+        "roles": [
+          { "role": "readAnyDatabase", "db": "admin" }
+        ]
+    },
+    {
+        "role": "xx_app",
+        "privileges": [],
+        "roles": [
+          { "role": "readWriteAnyDatabase", "db": "admin" }
+        ]
+    }
+]

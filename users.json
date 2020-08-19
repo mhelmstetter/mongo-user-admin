@@ -1,0 +1,22 @@
+[
+    {
+        "user": "xx_devops",
+        "roles": [
+            "xx_devops"
+        ],
+        "customData": {
+            "doNotDrop": true
+        },
+        "pwd_enc": "gAAAAABfPYvMdRWaNHSTWawN2BopQzUKhNRWouWOQBSBf_Dfh854Qzr-EnU4hlZO42_aYmv2JZNUItdztl-kVFuCgb-YFfLW6A=="
+    },
+    {
+        "user": "xx_app",
+        "roles": [
+            "xx_app"
+        ],
+        "customData": {
+            "doNotDrop": true
+        },
+        "pwd_enc": "gAAAAABfPWWFCwTEqOftgdddXZunp-Ae4wtbEIfTqljpmLsXtJYQw471EdGoMOJ7eh5ikN-EvVhkNFsf-O0cfAgwp73e9aRzMg=="
+    }
+]
