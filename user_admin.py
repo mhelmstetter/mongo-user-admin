@@ -142,6 +142,6 @@ if __name__=="__main__":
 
     users = load_json("users.json")
     users = encrypt_users(users, cipher_suite)
-    write_users(users, "users.json")
+    write_users(users, "users_enc.json")
     users = decrypt_users(users, cipher_suite)
     update_mongo_users(users, roles_set, admin_db)
